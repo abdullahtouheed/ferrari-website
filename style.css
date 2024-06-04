@@ -1,0 +1,189 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    margin: 0;
+    padding: 0;
+   background-color: black;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  ul>li{
+list-style: none;
+  }
+  
+  
+  .nav-container {
+    width: 100%;
+    position: absolute;
+    z-index: 66666666;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .nav-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 1.5em;
+    font-size: 1.25rem;
+    color: hsla(0,0%,100%, 0.7);
+  }
+  .bg-black1{
+    width: 100%;
+    height: 100vh;
+  
+  }
+  .bg-black{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.815);
+    opacity: 10px;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    z-index: 50;
+  }
+  .bg-black1>video{
+    width: 100%;
+ object-fit: cover;
+  }
+  .gap{
+    background-color: transparent;
+  }
+
+
+  p {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	
+	
+	padding: 1.5em 0em;
+	position: absolute;
+	top: 37%;
+	left: 53%;
+	width: 40em;
+	margin: 0 0 0 -20em;
+  
+  span {
+
+  	font: 900 8em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+    text-align: center;
+  
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+
+	  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+
+
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+  }
+}
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+  
+  
+  .BTN-M{
+    margin-top: 100px;
+    margin-left:230px ;
+    width: 190px;
+    height: 50px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10PX;
+    border: 1px solid;
+    border-color: rgb(138, 138, 138);
+    box-shadow: center;
+    box-shadow:  5px 5px 10px   #424242;
+    background-color: black;
+    color: white;
+    font-family:lato;
+  }
+  .s2>h1{
+    font-size: 4rem;
+    color: aliceblue;
+    background-color: black;
+    width: 100%;
+    margin-top: -40px;
+    position: absolute;
+    z-index: 22222;
+    text-align: center;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+  }
+  .s2{
+   
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   background-color: black;
+  }
+  .cards{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.719);
+    display: flex;
+    backdrop-filter: blur(4px);
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    gap: 10px;
+  }
+  .card>h1{
+    font-size: 2rem;
+  }
+  .card{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 100;
+    font-size: 0.6rem;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(156, 156, 156, 0.075);
+    backdrop-filter: blur(20px);
+
+  
+  }
