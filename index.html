@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sports Themed List</title>
+    <title>Maria Thunder</title>
     <style>
         body {
             background-color: #f0f0f0;
             font-family: 'Arial', sans-serif;
-            color: #333;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -18,56 +17,142 @@
         .container {
             background-color: #fff;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            max-width: 400px;
-            text-align: center;
+            max-width: 600px;
+            width: 100%;
         }
         h1 {
             color: #0073e6;
             text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 20px;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
         }
-        li {
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
             background-color: #0073e6;
-            color: #fff;
-            padding: 10px;
-            margin: 5px 0;
-            border-radius: 5px;
-            font-weight: bold;
+            color: white;
+            text-transform: uppercase;
         }
-        li:nth-child(odd) {
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        td {
+            font-weight: bold;
+            color: #333;
+        }
+        /* Vertical alignment styling */
+        .vertical-header {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            text-transform: uppercase;
+        }
+        .vertical-header th {
             background-color: #005bb5;
+            color: white;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Sports Team Members</h1>
-        <ul>
-            <li>sᴀʀɪᴍ</li>
-            <li>sʜᴀʜᴇᴇʀ</li>
-            <li>ᴜᴍᴇʀ</li>
-            <li>ᴀʟɪ</li>
-            <li>ʜᴀᴍᴢᴀ</li>
-            <li>ᴀʙᴅᴜʟʟᴀʜ</li>
-            <li>ᴅᴀᴡᴏᴏᴅ</li>
-            <li>ᴍᴜɴᴇᴇʀ</li>
-            <li>ᴀɴᴀs</li>
-            <li>ᴢᴀɪᴅ</li>
-            <li>sᴀғғᴀɴ</li>
-            <li>ʜᴀᴍᴢᴀ ɢᴜᴛᴋᴀ</li>
-            <li>ɪʙʀᴀʜɪᴍ</li>
-            <li>ᴍᴀʜɪᴅ</li>
-            <li>ᴀғɴᴀɴ</li>
-            <li>ᴍᴜsᴛᴀғᴀ</li>
-            <li>ᴍᴜᴢᴀᴍᴍɪʟ</li>
-            <li>ᴡᴀsᴀʏ</li>
-            <li>ᴀʀʜᴀᴍ</li>
-        </ul>
+        <h1>Maria Thunder</h1>
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th class="vertical-header" rowspan="19">
+                    <th>Vertical Names</th>
+                </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>sᴀʀɪᴍ</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>sʜᴀʜᴇᴇʀ</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>ᴜᴍᴇʀ</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>ᴀʟɪ</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>ʜᴀᴍᴢᴀ</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>ᴀʙᴅᴜʟʟᴀʜ</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>ᴅᴀᴡᴏᴏᴅ</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>ᴍᴜɴᴇᴇʀ</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>ᴀɴᴀs</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>ᴢᴀɪᴅ</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>sᴀғғᴀɴ</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>ʜᴀᴍᴢᴀ ɢᴜᴛᴋᴀ</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>ɪʙʀᴀʜɪᴍ</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>ᴍᴀʜɪᴅ</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>ᴀғɴᴀɴ</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>ᴍᴜsᴛᴀғᴀ</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>ᴍᴜᴢᴀᴍᴍɪʟ</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>ᴡᴀsᴀʏ</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>ᴀʀʜᴀᴍ</td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
